@@ -1,0 +1,19 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "todo-spec.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "start": "webdriver-manager start --seleniumPort 8090"
+  },
+  "keywords": [
+    "valiantsin"
+  ],
+  "author": "valiantsin",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

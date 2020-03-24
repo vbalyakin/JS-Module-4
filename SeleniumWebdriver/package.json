@@ -1,0 +1,23 @@
+{
+  "name": "seleniumwebdriver",
+  "version": "1.0.0",
+  "description": "hometasks",
+  "main": "todo-spec.js",
+  "scripts": {
+    "test": "mocha ./test/todo-spec.js --timeout 35000"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "valiantsin"
+  ],
+  "author": "valiantsin",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
